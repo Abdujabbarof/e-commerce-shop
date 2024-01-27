@@ -30,8 +30,8 @@ const Header = () => {
       <LuShoppingCart className="i"/>
     </Button>
    </div>
-    </header>
-   
+    </header>   
+
   )
 }
 
