@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -68,13 +70,19 @@
  
 @layer base {
   * {
-    @apply border-border p-0 m-0 list-none box-border;
+    @apply border-border p-0 m-0 list-none box-border leading-[115%];
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
   }
   /* Main container */
   .main_container {
     @apply max-w-[1280px] w-full mx-auto my-0 px-[3.3%];
   }
+
+  .bg_gradient {
+    background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
+  }
 }
+

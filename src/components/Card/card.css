@@ -1,0 +1,22 @@
+.img_wrapper {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.img_wrapper:hover .img_1 {
+    opacity: 0;
+}
+
+.img_wrapper:hover .img_2 {
+    opacity: 1;
+}
+
+.img_1, .img_2 {
+    position: absolute;
+    transition: 0.4s;
+}
+
+.img_2 {
+    opacity: 0;
+}
