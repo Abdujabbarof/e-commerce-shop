@@ -1,7 +1,7 @@
 import './card.css'
 const Card = () => {
   return (
-    <div className='relative shadow-md bg-white'>
+    <div className='relative border shadow-md bg-white'>
       <div className="img_wrapper h-[250px]">
           <img src="/hero1.jpeg" className="img_1 w-full object-cover object-center h-[250px]" alt="" />
           <img src="/hero2.jpeg" className="img_2 w-full object-cover object-center h-[250px]" alt="" />

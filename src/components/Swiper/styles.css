@@ -4,13 +4,13 @@
     padding-bottom: 50px;
   }
   
-.swiper-slide {
+.mySwiperCards .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
 }
   
-.swiper-slide img {
+.mySwiperCards .swiper-slide img {
     display: block;
     width: 100%;
 }

@@ -27,7 +27,7 @@ const Hero = () => {
       <section className='w-full relative'>
         <Swiper modules={[Pagination, Autoplay, Navigation]} 
           autoplay={{
-            delay: 4000,
+            delay: 8000,
             disableOnInteraction: false,
           }} 
           loop={true} 
