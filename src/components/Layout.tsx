@@ -5,11 +5,9 @@ import Footer from './Footer';
 const Layout =({children} : {children: ReactNode}) =>{
     return(
         <main>
-            
             <Header />
             {children}
             <Footer />
-
         </main>
     )
 }
