@@ -9,7 +9,7 @@ const CartBar = () => {
     
   return (
     <div className={`cart_bg fixed w-full h-[100vh] top-0 ${isOpen ? "right-0" : "right-[-100%]"} bg-black z-20 bg-opacity-[0.5] flex justify-end`}>
-        <div className={`max-w-[500px] w-full px-[3.3%] z-10 h-[100vh] top-0 bg-background`}>
+        <div className={`max-w-[500px] w-full px-[2.3%] z-10 h-[100vh] top-0 bg-background`}>
             <div className="w-full py-[20px] border-b flex justify-between items-center">
                 <h1 className="text-[24px]">Cart</h1>
 
@@ -21,7 +21,7 @@ const CartBar = () => {
             </div>
 
             <div className="w-full h-full overflow-y-scroll">
-                <div className="w-full flex flex-col gap-3 py-4 pb-[120px]">
+                <div className="w-full flex flex-col gap-3 py-4 pb-[165px]">
                     <CartItems />
                     <CartItems />
                     <CartItems />

@@ -1,25 +1,16 @@
-<<<<<<< HEAD
 import { Link } from "react-router-dom"
 import { Button } from "../ui/button"
 import { CiMenuFries } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { fadeAnimation, slideAnimation } from "@/configs/motions";
+import { fadeAnimation, slideAnimation } from "../../configs/motion";
 import { CartContext } from "@/context/CartContext";
 import { useContext } from "react";
-=======
-
-import { Button } from "@/components/ui/button"
-import "../Header/header.css"
-import { LuShoppingCart } from "react-icons/lu";
-import { IoMenu } from "react-icons/io5";
->>>>>>> 32acfa45f5ee1908a4e4cce0916899a233f4f835
 
 const Header = () => {
   const {setisOpen} = useContext(CartContext)
 
   return (
-<<<<<<< HEAD
     <header className="absolute mt-[5px] py-[20px] left-0 top-0 z-10  w-full shadow-sm">
       <div className="main_container flex justify-between items-center text-background">
         <Link to={'/'}>
@@ -55,34 +46,6 @@ const Header = () => {
           </nav>
       </div>
     </header>
-=======
-    <header>
-      <div className="nav-logo">
-      <img src={"logo.jpg"} alt="" />
-      <p>Lanitka</p>
-      </div>
-    <div className="navbar">
-    <ul>
-      <li><a className="active" href="">Home</a></li>
-      <li><a href="./Shop">Shop</a></li>
-      <li><a href="">About us</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">Men</a></li>
-      <li><a href="">Women</a></li>
-    </ul>
-    <Button variant={"ghost"}>
-      <LuShoppingCart/>
-    </Button>
-   </div>
-   <div id="mobile">
-   <IoMenu id="bar" />
-   <Button variant={"ghost"}>
-      <LuShoppingCart className="i"/>
-    </Button>
-   </div>
-    </header>
-   
->>>>>>> 32acfa45f5ee1908a4e4cce0916899a233f4f835
   )
 }
 

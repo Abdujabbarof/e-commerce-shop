@@ -1,4 +1,4 @@
-import { slideAnimation } from "@/configs/motions"
+import { slideAnimation } from "../../configs/motion"
 import { motion } from "framer-motion"
 import SwiperCompoent from "../Swiper/Swiper"
 

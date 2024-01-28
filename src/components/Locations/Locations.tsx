@@ -1,4 +1,4 @@
-import { fadeAnimation, slideAnimation } from "@/configs/motions"
+import { fadeAnimation, slideAnimation } from "../../configs/motion"
 import { motion } from "framer-motion"
 import { IoLocationSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";

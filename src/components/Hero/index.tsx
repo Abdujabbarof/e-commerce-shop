@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
 import { AnimatePresence, motion } from "framer-motion";
-import { fadeAnimation, headTextAnimation, slideAnimation, topAnimation } from "@/configs/motions";
+import { fadeAnimation, headTextAnimation, slideAnimation } from "../../configs/motion";
 
 const getRandomColor = () => {
   const randomValue = () => Math.floor(Math.random() * 64); // Adjusted the range to generate lower values
@@ -93,7 +93,7 @@ const Hero = () => {
         </Swiper>
 
         <div className="hidden lg:block absolute bottom-[50px] translate-x-[-50%] left-[50%] z-10 cursor-pointer">
-          <motion.div className="flex w-[50px] h-[50px] rounded-full border-2 border-white justify-center items-center" {...topAnimation}><LuMouse size={24} color="white" />
+          <motion.div className="flex w-[50px] h-[50px] rounded-full border-2 border-white justify-center items-center"><LuMouse size={24} color="white" />
           </motion.div>
         </div>
       </section>
