@@ -1,4 +1,4 @@
-
+import React from 'react'
 import "./Servises.css"
 import Clok from "../../assets/image 6.png"
 import hend from "../../assets/image 7.png"
