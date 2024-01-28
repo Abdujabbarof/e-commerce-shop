@@ -1,8 +1,17 @@
-import React from 'react'
-
+import "./footer.css"
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+    <footer className="main_container">
+      <div className="footer_description">
+        <p>Все права защищены © 2024 Lanitka</p>
+        <div className="description">
+          <p>Made by _adbdujabborov ,</p>
+          <p> doston_coder_</p>
+        </div>
+      </div>
+    </footer>
+    </>
   )
 }
 
