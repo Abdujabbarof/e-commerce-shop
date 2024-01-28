@@ -84,5 +84,21 @@
   .bg_gradient {
     background: linear-gradient(180deg, #7D89FF 0%, #AB40FF 66.67%);
   }
+
+  .nav_links, .bg_cover, .cart_bg {
+    transition: .4s;
+  }
+
+  #checkbox:checked ~ ul {
+    left: 0;
+  }
+
+  #checkbox:checked ~ .menu_item {
+    /* color: black;  */
+  }
+
+  #checkbox:checked ~ .bg_cover {
+    right: 0;
+  }
 }
 

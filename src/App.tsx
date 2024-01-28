@@ -1,16 +1,11 @@
-import Catalog from "./components/Catalog"
-import Hero from "./components/Hero"
-import Locations from "./components/Locations/Locations"
-import Testimionals from "./components/Testimionals/Testimionals"
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
 
 function App() {
   return (
-    <> 
-      <Hero />
-      <Catalog />
-      <Testimionals />
-      <Locations />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 

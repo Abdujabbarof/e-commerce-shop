@@ -21,7 +21,6 @@ const getRandomColor = () => {
 };
 
 const Hero = () => {  
-
   return (
     <AnimatePresence>
       <section className='w-full relative'>
@@ -37,8 +36,8 @@ const Hero = () => {
           className="mySwiper">
             {
               [1,2].map((item) => (
-                <SwiperSlide key={item} className="p-[10px] lg:h-[100vh]">
-                  <div className="py-[80px] rounded-2xl border-2 flex h-full items-center" style={{ background: `linear-gradient(180deg, ${getRandomColor()} 0%, ${getRandomColor()} 66.67%)` }}>
+                <SwiperSlide key={item} className="lg:h-[100vh]">
+                  <div className="pt-[120px] pb-[60px] lg:py-[80px] lg:border-2 flex h-full items-center" style={{ background: `linear-gradient(180deg, ${getRandomColor()} 0%, ${getRandomColor()} 66.67%)` }}>
                     <div className="main_container max-w-[708px] lg:max-w-[1280px] flex flex-col gap-y-5 lg:flex-row justify-between gap-[7%]">
                       <div className="flex flex-col justify-center items-start gap-y-[30px] col-span-3">
                         <div>
@@ -76,13 +75,13 @@ const Hero = () => {
                             }}
                             className="mySwiper max-w-[400px]">
                             <SwiperSlide>
-                              <img src="/cap1.JPG" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none" />
+                              <img src="/cap1.JPG" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none rounded-se-none" />
                             </SwiperSlide>
                             <SwiperSlide>
-                              <img src="/cap2.JPG" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none" />
+                              <img src="/cap2.JPG" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none rounded-se-none" />
                             </SwiperSlide>
                             <SwiperSlide>
-                              <img src="/cap3.jpeg" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none" />
+                              <img src="/cap3.jpeg" alt="Hero Image" className="border-[10px] border-white mx-auto w-[300px] h-[391px] sm:w-[400px] sm:h-[522px] object-cover rounded-[100px] rounded-es-none rounded-se-none" />
                             </SwiperSlide>
                           </Swiper>
                         </motion.div>
