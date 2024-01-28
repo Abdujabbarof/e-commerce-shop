@@ -4,10 +4,3 @@
     align-items: center;
     font-size: 15px;
 }
-
-.description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}

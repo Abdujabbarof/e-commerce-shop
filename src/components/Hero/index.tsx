@@ -36,8 +36,8 @@ const Hero = () => {
           className="mySwiper">
             {
               [1,2].map((item) => (
-                <SwiperSlide key={item} className="lg:h-[100vh]">
-                  <div className="pt-[120px] pb-[60px] lg:py-[80px] lg:border-2 flex h-full items-center" style={{ background: `linear-gradient(180deg, ${getRandomColor()} 0%, ${getRandomColor()} 66.67%)` }}>
+                <SwiperSlide key={item}>
+                  <div className="pt-[120px] pb-[60px] lg:pt-[150px] lg:py-[120px] flex h-full items-center" style={{ background: `linear-gradient(180deg, ${getRandomColor()} 0%, ${getRandomColor()} 66.67%)` }}>
                     <div className="main_container max-w-[708px] lg:max-w-[1280px] flex flex-col gap-y-5 lg:flex-row justify-between gap-[7%]">
                       <div className="flex flex-col justify-center items-start gap-y-[30px] col-span-3">
                         <div>
@@ -92,7 +92,7 @@ const Hero = () => {
             }
         </Swiper>
 
-        <div className="hidden lg:block absolute bottom-[50px] translate-x-[-50%] left-[50%] z-10 cursor-pointer">
+        <div className="mouse_animated hidden lg:block absolute bottom-[30px] translate-x-[-50%] left-[50%] z-10 cursor-pointer">
           <motion.div className="flex w-[50px] h-[50px] rounded-full border-2 border-white justify-center items-center"><LuMouse size={24} color="white" />
           </motion.div>
         </div>

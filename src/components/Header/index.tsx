@@ -26,13 +26,13 @@ const Header = () => {
                 <Link className="hover:underline" to={'#'}>О компании</Link>
               </motion.li>
               <motion.li {...fadeAnimation}>
-                <Link className="hover:underline" to={'#'}>Каталог</Link>
+                <Link className="hover:underline" to={'#catalog'}>Каталог</Link>
               </motion.li>
               <motion.li {...fadeAnimation}>
                 <Link className="hover:underline" to={'#'}>Услуги</Link>
               </motion.li>
               <motion.li {...fadeAnimation}>
-                <Link className="hover:underline" to={'#'}>Контакты</Link>
+                <Link className="hover:underline" to={'#contacts'}>Контакты</Link>
               </motion.li>
             </ul>
             

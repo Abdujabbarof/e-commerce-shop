@@ -2,9 +2,10 @@ import './card.css'
 const Card = () => {
   return (
     <div className='relative border shadow-md bg-white'>
+      <span className='absolute left-[10px] top-[10px] bg-destructive z-10 w-[50px] h-[50px] rounded-full text-background rotate-[-25deg] flex justify-center items-center'>30%</span>
       <div className="img_wrapper h-[250px]">
-          <img src="/hero1.jpeg" className="img_1 w-full object-cover object-center h-[250px]" alt="" />
-          <img src="/hero2.jpeg" className="img_2 w-full object-cover object-center h-[250px]" alt="" />
+          <img src="/cap1.JPG" className="img_1 w-full object-cover object-center h-[250px]" alt="" />
+          <img src="/cap2.JPG" className="img_2 w-full object-cover object-center h-[250px]" alt="" />
       </div>
 
       <div className='py-3 px-2'>

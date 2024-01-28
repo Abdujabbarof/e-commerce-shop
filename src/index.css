@@ -72,6 +72,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    scroll-behavior: smooth;
   }
   /* Main container */
   .main_container {
@@ -96,6 +97,20 @@
 
   #checkbox:checked ~ .bg_cover {
     right: 0;
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .mouse_animated {
+    animation: moveUpDown 1s infinite; /* Adjust the duration as needed */
+    transition: transform 0.5s; 
   }
 }
 
