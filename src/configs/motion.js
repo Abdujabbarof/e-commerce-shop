@@ -1,6 +1,6 @@
-export const transition = { type: "spring", duration: 1 };
+export const transition = { type: "spring", duration: 0.8 };
 
-export const slideAnimation = (direction: string) => {
+export const slideAnimation = (direction) => {
   return {
     initial: {
       x: direction === "left" ? -100 : direction === "right" ? 100 : 0,
@@ -20,19 +20,6 @@ export const slideAnimation = (direction: string) => {
       transition: { ...transition, delay: 0 },
     },
   };
-};
-
-export const topAnimation = {
-  initial: { y: 0 },
-  animate: { y: 15 },
-  transition: {
-    type: "spring",
-    damping: 5,
-    stiffness: 40,
-    restDelta: 0.001,
-    duration: 0.3,
-    repeat: Infinity
-  },
 };
 
 export const fadeAnimation = {
